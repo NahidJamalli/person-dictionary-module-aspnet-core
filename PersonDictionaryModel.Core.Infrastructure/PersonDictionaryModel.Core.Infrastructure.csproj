@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonDictionaryModel.Application\PersonDictionaryModel.Core.Application.csproj" />
+    <ProjectReference Include="..\PersonDictionaryModel.Core\PersonDictionaryModel.Core.Domain.csproj" />
+    <ProjectReference Include="..\PersonDictionaryModel.Persistence\PersonDictionaryModel.Persistence.csproj" />
+    <ProjectReference Include="..\PersonDictionaryModel.Resources\PersonDictionaryModel.Resources.csproj" />
+  </ItemGroup>
+
+</Project>
